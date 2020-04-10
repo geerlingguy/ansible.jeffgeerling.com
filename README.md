@@ -1,12 +1,12 @@
-## Jeff Geerling's Ansible Content
+## About Jeff Geerling (geerlingguy)
 
-This site will soon have all the information about Jeff Geerling's Ansible content.
+[Jeff Geerling](https://www.jeffgeerling.com) is an author and software developer from St. Louis, MO. He started using Ansible in 2013 and maintains numerous Ansible works.
 
 ## Ansible Books
 
 | [Ansible for DevOps](https://www.ansiblefordevops.com) | [Ansible for Kubernetes](https://www.ansibleforkubernetes.com) |
 | :---: | :---: |
-| TODO | TODO |
+| <a href="https://www.ansiblefordevops.com/"><img src="images/ansible-for-devops.jpg" alt="Ansible for DevOps" /></a> | <a href="https://www.ansibleforkubernetes.com/"><img src="images/ansible-for-kubernetes.jpg" alt="Ansible for Kubernetes" /></a> |
 
 ## Ansible Collections
 
@@ -15,6 +15,15 @@ TODO.
 ## Ansible Roles
 
 TODO.
+
+## Ansible Videos
+
+TODO.
+
+## Ansible Presentations
+
+| Date | Place | Title |
+| TODO | TODO | TODO |
 
 ## Other Ansible-based projects
 
