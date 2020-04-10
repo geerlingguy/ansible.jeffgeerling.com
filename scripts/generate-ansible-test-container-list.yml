@@ -1,0 +1,44 @@
+- name: Create table markdown for containers.
+  hosts: localhost
+  gather_facts: no
+  connection: local
+
+  tasks:
+    # TODO: The build system is currently defaulted to travis-ci.org.
+    - name: Create table with items templated in containers-table file.
+      lineinfile:
+        path: containers-table
+        regexp: 'ANYTHING'
+        line: >-
+          | [geerlingguy/{{ item.name }}](https://hub.docker.com/r/geerlingguy/{{ item.name }}/) | [![Build Status](https://travis-ci.org/geerlingguy/{{ item.name }}.svg?branch=master)](https://travis-ci.org/geerlingguy/{{ item.name }}) | &#10003; | [GitHub](https://github.com/geerlingguy/{{ item.name }}) |
+        create: yes
+        insertafter: eof
+      with_items: "{{ geerlingguy_test_containers }}"
+
+  vars:
+    build_system_default: travis-ci.org
+    geerlingguy_test_containers:
+      - name: docker-ubuntu2004-ansible
+        build_system: travis-ci.com
+      - name: docker-ubuntu1804-ansible
+      - name: docker-ubuntu1604-ansible
+      - name: docker-ubuntu1404-ansible
+      - name: docker-ubuntu1204-ansible
+      - name: docker-centos8-ansible
+        build_system: travis-ci.com
+      - name: docker-centos7-ansible
+      - name: docker-centos6-ansible
+      - name: docker-debian10-ansible
+        build_system: travis-ci.com
+      - name: docker-debian9-ansible
+      - name: docker-debian8-ansible
+      - name: docker-ubi8-ansible
+        build_system: travis-ci.com
+      - name: docker-amazonlinux2-ansible
+      - name: docker-fedora31-ansible
+        build_system: travis-ci.com
+      - name: docker-fedora30-ansible
+        build_system: travis-ci.com
+      - name: docker-fedora29-ansible
+      - name: docker-fedora27-ansible
+      - name: docker-fedora24-ansible

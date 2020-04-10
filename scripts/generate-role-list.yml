@@ -1,0 +1,115 @@
+- name: Create table markdown for roles.
+  hosts: localhost
+  gather_facts: no
+  connection: local
+
+  tasks:
+    # TODO: The build system is currently defaulted to travis-ci.org.
+    - name: Create table with items templated in roles-table file.
+      lineinfile:
+        path: roles-table
+        regexp: 'ANYTHING'
+        line: >-
+          | [geerlingguy.{{ item }}](https://galaxy.ansible.com/geerlingguy/{{ item }}) | [![Build Status](https://travis-ci.org/geerlingguy/ansible-role-{{ item }}.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-{{ item }}) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-{{ item }}) |
+        create: yes
+        insertafter: eof
+      with_items: "{{ geerlingguy_roles }}"
+
+  vars:
+    build_system_default: travis-ci.org
+    geerlingguy_roles:
+      - name: adminer
+      - name: ansible
+      - name: apache
+      - name: apache-php-fpm
+      - name: aws-inspector
+      - name: awx
+      - name: backup
+      - name: bad_judgement
+        build_system: travis-ci.com
+      - name: blackfire
+      - name: certbot
+      - name: clamav
+      - name: collectd-signalfx
+      - name: composer
+      - name: daemonize
+      - name: docker
+      - name: docker_arm
+        build_system: travis-ci.com
+      - name: dotfiles
+      - name: drupal
+      - name: drupal-console
+      - name: drush
+      - name: ecr_container_build
+      - name: elasticsearch
+      - name: elasticsearch-curator
+      - name: exim
+      - name: fathom
+      - name: filebeat
+      - name: firewall
+      - name: fluentd
+        build_system: travis-ci.com
+      - name: git
+      - name: github-users
+      - name: gitlab
+      - name: glusterfs
+      - name: gogs
+      - name: haproxy
+      - name: hdparm
+      - name: homebrew
+      - name: htpasswd
+      - name: java
+      - name: jenkins
+      - name: k8s_manifests
+      - name: kibana
+      - name: kubernetes
+      - name: logstash
+      - name: logstash-forwarder
+      - name: mailhog
+      - name: mas
+      - name: memcached
+      - name: munin
+      - name: munin-node
+      - name: mysql
+      - name: nfs
+      - name: nginx
+      - name: nodejs
+      - name: ntp
+      - name: packer
+      - name: packer-debian
+      - name: packer_rhel
+      - name: passenger
+      - name: php
+      - name: php-memcached
+      - name: phpmyadmin
+      - name: php-mysql
+      - name: php-pear
+      - name: php-pecl
+      - name: php-pgsql
+      - name: php-redis
+      - name: php-tideways
+      - name: php-versions
+      - name: php-xdebug
+      - name: php-xhprof
+      - name: pimpmylog
+      - name: pip
+      - name: postfix
+      - name: postgresql
+      - name: puppet
+      - name: rabbitmq
+      - name: raspberry-pi
+      - name: redis
+      - name: repo-dotdeb
+      - name: repo-epel
+      - name: repo-puias
+      - name: repo-remi
+      - name: ruby
+      - name: samba
+      - name: security
+      - name: solr
+      - name: ssh-chroot-jail
+      - name: supervisor
+      - name: svn
+      - name: svn2git
+      - name: swap
+      - name: varnish

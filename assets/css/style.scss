@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+section {
+  padding-top: 0;
+  margin-top: 20px;
+}
+
+section #title {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-image: none;
+}
+
+section .credits {
+  text-align: center;
+  font-size: 11px;
+  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #696969;
+}

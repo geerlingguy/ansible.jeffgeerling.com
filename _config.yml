@@ -1,3 +1,20 @@
-theme: jekyll-theme-midnight
+---
+# Site settings
 title: Jeff Geerling's Ansible Content
-description: Jeff Geerling (geerlingguy) maintains a large variety of open source Ansible content. This website catalogs it all.
+description: ''
+
+# Build settings
+theme: jekyll-theme-midnight
+
+# Exclude from processing.
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

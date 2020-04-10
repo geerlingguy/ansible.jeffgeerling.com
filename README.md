@@ -1,30 +1,15 @@
-## About Jeff Geerling (geerlingguy)
+# Jeff Geerling's Ansible Content Site
 
-[Jeff Geerling](https://www.jeffgeerling.com) is an author and software developer from St. Louis, MO. He started using Ansible in 2013 and maintains numerous Ansible works.
+This repository contains the Jekyll configuration and content behind the [https://ansible.jeffgeerling.com/](https://ansible.jeffgeerling.com/) site.
 
-## Ansible Books
+To view the site locally, ensure you have Ruby and Jekyll installed:
 
-| :---: | :---: |
-| <a href="https://www.ansiblefordevops.com/"><img src="images/ansible-for-devops.jpg" alt="Ansible for DevOps" /></a> | <a href="https://www.ansibleforkubernetes.com/"><img src="images/ansible-for-kubernetes.jpg" alt="Ansible for Kubernetes" /></a> |
-| [Ansible for DevOps](https://www.ansiblefordevops.com) | [Ansible for Kubernetes](https://www.ansibleforkubernetes.com) |
+    gem install --user-install bundler jekyll
 
-## Ansible Collections
+Then, in this directory, install all the required gems:
 
-TODO.
+    bundle install
 
-## Ansible Roles
+Finally, in this directory, run:
 
-TODO.
-
-## Ansible Videos
-
-TODO.
-
-## Ansible Presentations
-
-| Date | Place | Title |
-| TODO | TODO | TODO |
-
-## Other Ansible-based projects
-
-TODO.
+    bundle exec jekyll serve
