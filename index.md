@@ -199,19 +199,19 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 
 | Place and Date | Title |
 | -------------- | ----- |
-| STL Business Meetup<br><em>January 14, 2014</em> | [Local Dev on Virtual Machines - Vagrant, VirtualBox and Ansible](https://www.jeffgeerling.com/blog/virtualbox-vagrant-and-ansible-local-development) |
-| DrupalCon Austin<br><em>June 5, 2014</em> | [DevOps for Humans: Ansible for Drupal Deployment Victory!](https://www.jeffgeerling.com/blog/devops-humans-ansible-presentation-drupalcon)
-| YouTube<br><em>March 8, 2015</em> | [Ansible serial/forks demo on a Cluster of Raspberry Pis](https://www.youtube.com/watch?v=rRJQiHydVG4) |
-| MidCamp 2015<br><em>March 21, 2015</em> | [Ansible + Drupal: A Fortuitous DevOps Match](https://www.jeffgeerling.com/blog/midcamp-2015-ansible-drupal-8-presentation) |
-| YouTube<br><em>July 14, 2015</em> | [Ansible 101 on a Cluster of Raspberry Pi 2s](https://www.youtube.com/watch?v=ZNB1at8mJWY) |
-| YouTube<br><em>July 27, 2015</em> | [Nginx Load Balancer Visualization on a Cluster of Raspberry Pis](https://www.youtube.com/watch?v=7Tf2f5gdO4I) |
-| php[tek] 2016<br><em>May 25, 2016</em> | [Highly Available Drupal on a Raspberry Pi Cluster](https://www.jeffgeerling.com/blog/2016/highly-available-drupal-on-raspberry-pi-cluster-phptek-2016-session) |
-| AnsibleFest San Francisco 2016<br><em>July 28, 2016</em> | [Ansible Roles for Fun and Profit!](https://www.ansible.com/ansible-roles-by-acquia) |
-| MidCamp 2018<br><em>March 10, 2018</em> | [Jenkins or: How I learned to stop worrying and love automation](https://www.midcamp.org/2018/topic-proposal/jenkins-or-how-i-learned-stop-worrying-and-love-automation) |
-| AnsibleFest Austin 2018<br><em>August 21, 2018</em> | [Make your Ansible playbooks flexible, maintainable, and scalable](https://www.youtube.com/watch?v=kNDL13MJG6Y) |
-| AnsibleFest Atlanta 2019<br><em>September 25, 2019</em> | [There's a Role for that! How to evaluate community roles for your playbook](https://www.jeffgeerling.com/blog/2019/how-evaluate-community-ansible-roles-your-playbooks) |
-| DrupalCon Seattle 2019<br><em>November 26, 2019</em> | [Everything I know about Kubernetes I learned from a cluster of Raspberry Pis](https://www.jeffgeerling.com/blog/2019/everything-i-know-about-kubernetes-i-learned-cluster-raspberry-pis) |
-| YouTube<br><em>April 2020</em> | [Ansible 101 streaming series](https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series) |
+| Meetup<br><span class="date">January 14, 2014</span> | [Local Dev on Virtual Machines - Vagrant, VirtualBox and Ansible](https://www.jeffgeerling.com/blog/virtualbox-vagrant-and-ansible-local-development) |
+| DrupalCon Austin<br><span class="date">June 5, 2014</span> | [DevOps for Humans: Ansible for Drupal Deployment Victory!](https://www.jeffgeerling.com/blog/devops-humans-ansible-presentation-drupalcon)
+| YouTube<br><span class="date">March 8, 2015</span> | [Ansible serial/forks demo on a Cluster of Raspberry Pis](https://www.youtube.com/watch?v=rRJQiHydVG4) |
+| MidCamp 2015<br><span class="date">March 21, 2015</span> | [Ansible + Drupal: A Fortuitous DevOps Match](https://www.jeffgeerling.com/blog/midcamp-2015-ansible-drupal-8-presentation) |
+| YouTube<br><span class="date">July 14, 2015</span> | [Ansible 101 on a Cluster of Raspberry Pi 2s](https://www.youtube.com/watch?v=ZNB1at8mJWY) |
+| YouTube<br><span class="date">July 27, 2015</span> | [Nginx Load Balancer Visualization on a Cluster of Raspberry Pis](https://www.youtube.com/watch?v=7Tf2f5gdO4I) |
+| php[tek] 2016<br><span class="date">May 25, 2016</span> | [Highly Available Drupal on a Raspberry Pi Cluster](https://www.jeffgeerling.com/blog/2016/highly-available-drupal-on-raspberry-pi-cluster-phptek-2016-session) |
+| AnsibleFest SF 2016<br><span class="date">July 28, 2016</span> | [Ansible Roles for Fun and Profit!](https://www.ansible.com/ansible-roles-by-acquia) |
+| MidCamp 2018<br><span class="date">March 10, 2018</span> | [Jenkins or: How I learned to stop worrying and love automation](https://www.midcamp.org/2018/topic-proposal/jenkins-or-how-i-learned-stop-worrying-and-love-automation) |
+| AnsibleFest Austin 2018<br><span class="date">August 21, 2018</span> | [Make your Ansible playbooks flexible, maintainable, and scalable](https://www.youtube.com/watch?v=kNDL13MJG6Y) |
+| AnsibleFest Atlanta 2019<br><span class="date">September 25, 2019</span> | [There's a Role for that! How to evaluate community roles for your playbook](https://www.jeffgeerling.com/blog/2019/how-evaluate-community-ansible-roles-your-playbooks) |
+| DrupalCon Seattle 2019<br><span class="date">November 26, 2019</span> | [Everything I know about Kubernetes I learned from a cluster of Raspberry Pis](https://www.jeffgeerling.com/blog/2019/everything-i-know-about-kubernetes-i-learned-cluster-raspberry-pis) |
+| YouTube<br><span class="date">April 2020</span> | [Ansible 101 streaming series](https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series) |
 
 <a href="#">Back to Top</a>
 
