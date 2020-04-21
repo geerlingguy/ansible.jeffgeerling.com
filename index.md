@@ -31,7 +31,7 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
   - [Container Images for Ansible Testing](#container-images-testing)
   - [Ansible Collections](#collections)
   - [Ansible Roles](#roles)
-  - [Ansible projects](#projects)
+  - [Ansible Projects](#projects)
   - [Ansible Videos and Presentations](#presentations)
 
 ## <a name="operators"></a>Ansible-based Operators
