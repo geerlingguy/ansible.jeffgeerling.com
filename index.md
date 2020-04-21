@@ -31,8 +31,8 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
   - [Container Images for Ansible Testing](#container-images-testing)
   - [Ansible Collections](#collections)
   - [Ansible Roles](#roles)
+  - [Ansible projects](#projects)
   - [Ansible Videos and Presentations](#presentations)
-  - [Other Ansible content and projects](#other)
 
 ## <a name="operators"></a>Ansible-based Operators
 
@@ -195,6 +195,22 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 
 <a href="#">Back to Top</a>
 
+## <a name="projects"></a>Ansible Projects
+
+| Name and Link | Test Status | Maintained? |
+| ------------- | ----------- | ----------- |
+| [Ansible Requirements Updater](https://github.com/geerlingguy/ansible-requirements-updater) | N/A | &#10003; |
+| [Mac Development Playbook](https://github.com/geerlingguy/mac-dev-playbook) | [![Build Status](https://travis-ci.org/geerlingguy/mac-dev-playbook.svg?branch=master)](https://travis-ci.org/geerlingguy/mac-dev-playbook) | &#10003; |
+| [Packer Boxes](https://github.com/geerlingguy/packer-boxes) | ![Validate Packer JSON files](https://github.com/geerlingguy/packer-boxes/workflows/Validate%20Packer%20JSON%20files/badge.svg) | &#10003; |
+| [Drupal VM](https://www.drupalvm.com) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-vm.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-vm) | &#10003; |
+| [Raspberry Pi Dramble](https://www.pidramble.com) | [![Build Status](https://travis-ci.org/geerlingguy/raspberry-pi-dramble.svg?branch=master)](https://travis-ci.org/geerlingguy/raspberry-pi-dramble) | &#10003; |
+| [Drupal Pi](https://github.com/geerlingguy/drupal-pi) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-pi.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-pi) | &#10003; |
+| [Ansible Vagrant Examples](https://github.com/geerlingguy/ansible-vagrant-examples) | N/A | &#33; |
+
+Also see [all my blog posts about Ansible](https://www.jeffgeerling.com/category/ansible) and [all my YouTube videos about Ansible](https://www.youtube.com/playlist?list=PL2_OBreMn7FplshFCWYlaN2uS8et9RjNG).
+
+<a href="#">Back to Top</a>
+
 ## <a name="presentations"></a>Ansible Videos and Presentations
 
 | Place and Date | Title |
@@ -212,21 +228,6 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | AnsibleFest Atlanta 2019<br><span class="date">September 25, 2019</span> | [There's a Role for that! How to evaluate community roles for your playbook](https://www.jeffgeerling.com/blog/2019/how-evaluate-community-ansible-roles-your-playbooks) |
 | DrupalCon Seattle 2019<br><span class="date">November 26, 2019</span> | [Everything I know about Kubernetes I learned from a cluster of Raspberry Pis](https://www.jeffgeerling.com/blog/2019/everything-i-know-about-kubernetes-i-learned-cluster-raspberry-pis) |
 | YouTube<br><span class="date">April 2020</span> | [Ansible 101 streaming series](https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series) |
-
-<a href="#">Back to Top</a>
-
-## <a name="other"></a>Other Ansible Content and Projects
-
-  - [Ansible Requirements Updater](https://github.com/geerlingguy/ansible-requirements-updater)
-  - [Mac Development Playbook](https://github.com/geerlingguy/mac-dev-playbook) - Mac setup and configuration via Ansible.
-  - [Packer Boxes](https://github.com/geerlingguy/packer-boxes) - Packer build configurations for geerlingguy's minimal OS Vagrant boxes.
-  - [Drupal VM](https://www.drupalvm.com) - A VM for Drupal development, built with Vagrant and Ansible.
-  - [Raspberry Pi Dramble](https://www.pidramble.com) - a cluster of Raspberry Pis running Kubernetes, managed by Ansible
-  - [Drupal Pi](https://github.com/geerlingguy/drupal-pi) - Drupal on Docker on a Raspberry Pi. Pi Dramble's little brother.
-  - [All posts tagged 'ansible' on Jeff Geerling's blog](https://www.jeffgeerling.com/category/ansible)
-  - [Ansible Examples in Ansible for DevOps](https://github.com/geerlingguy/ansible-for-devops)
-  - [Ansible Examples in Ansible for Kubernetes](https://github.com/geerlingguy/ansible-for-kubernetes)
-  - [Ansible Examples using Vagrant to deploy to local VMs](https://github.com/geerlingguy/ansible-vagrant-examples)
 
 <a href="#">Back to Top</a>
 
