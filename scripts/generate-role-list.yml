@@ -56,6 +56,8 @@
       - name: gogs
       - name: haproxy
       - name: hdparm
+      - name: helm
+        build_system: travis-ci.com
       - name: homebrew
       - name: htpasswd
       - name: java
