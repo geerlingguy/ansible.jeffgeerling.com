@@ -38,10 +38,10 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
 
 | Name | Test Status | Maintained? | Repository |
 | ---- | ----------- | ----------- | ---------- |
-| [Ansible Tower/AWX Operator](https://github.com/geerlingguy/tower-operator) | [![Build Status](https://travis-ci.com/geerlingguy/tower-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/tower-operator) | &#10003; | [GitHub](https://github.com/geerlingguy/tower-operator) |
 | [Drupal Operator](https://github.com/geerlingguy/drupal-operator) | [![Build Status](https://travis-ci.com/geerlingguy/drupal-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/drupal-operator) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-operator) |
 | [MariaDB Operator](https://github.com/geerlingguy/mariadb-operator) | [![Build Status](https://travis-ci.com/geerlingguy/mariadb-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/mariadb-operator) | &#10003; | [GitHub](https://github.com/geerlingguy/mariadb-operator) |
 | [Mcrouter Operator](https://github.com/geerlingguy/mcrouter-operator) | [![Build Status](https://travis-ci.com/geerlingguy/mcrouter-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/mcrouter-operator) | &#33; | [GitHub](https://github.com/geerlingguy/mcrouter-operator) |
+| [Ansible Tower/AWX Operator](https://github.com/geerlingguy/tower-operator) | [![Build Status](https://travis-ci.com/geerlingguy/tower-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/tower-operator) | &#10007; | [GitHub](https://github.com/geerlingguy/tower-operator) |
 
 <a href="#">Back to Top</a>
 
