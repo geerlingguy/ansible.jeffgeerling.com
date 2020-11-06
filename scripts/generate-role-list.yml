@@ -36,7 +36,6 @@
       - name: docker_arm
       - name: dotfiles
       - name: drupal
-      - name: drupal-console
       - name: drush
       - name: ecr_container_build
       - name: elasticsearch
