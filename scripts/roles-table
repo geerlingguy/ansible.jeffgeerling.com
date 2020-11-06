@@ -1,102 +1,3 @@
----
-title: ''
-description: ''
----
-## About Jeff Geerling (geerlingguy)
-
-[Jeff Geerling](https://www.jeffgeerling.com) is an author and software developer from St. Louis, MO. He started using Ansible in 2013 and maintains numerous Ansible works.
-
-## Ansible Books
-
-| <a href="https://www.ansiblefordevops.com/"><img src="assets/images/ansible-for-devops.jpg" alt="Ansible for DevOps" /></a> | <a href="https://www.ansibleforkubernetes.com/"><img src="assets/images/ansible-for-kubernetes.jpg" alt="Ansible for Kubernetes" /></a> |
-| :---: | :---: |
-| [Ansible for DevOps](https://www.ansiblefordevops.com) | [Ansible for Kubernetes](https://www.ansibleforkubernetes.com) |
-
-## Project Maintenance Status
-
-I maintain over 250 open source projects and two bestselling books, and without some level of automation (and maybe a little sleep from time to time), it would be impossible for me to keep all the projects relevant.
-
-I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-issue-bot-on-my-github-repositories) to clean up repository issues and PRs, and I also sometimes informally put a project into 'maintenance only' mode. That is indicated in the listings below using the following conventions:
-
-| Icon | Description |
-| ---: | ----------- |
-| &#10003; | Actively used and maintained. |
-| &#33; | Maintenance and bugfixes only. |
-| &#10007; | Not maintained. |
-
-## Table of Contents
-
-  - [Ansible-based Operators](#operators)
-  - [Container Images Built with Ansible](#container-images)
-  - [Container Images for Ansible Testing](#container-images-testing)
-  - [Ansible Collections](#collections)
-  - [Ansible Roles](#roles)
-  - [Ansible Projects](#projects)
-  - [Ansible Videos and Presentations](#presentations)
-
-## <a name="operators"></a>Ansible-based Operators
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [Drupal Operator](https://github.com/geerlingguy/drupal-operator) | [![Build Status](https://travis-ci.com/geerlingguy/drupal-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/drupal-operator) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-operator) |
-| [MariaDB Operator](https://github.com/geerlingguy/mariadb-operator) | [![Build Status](https://travis-ci.com/geerlingguy/mariadb-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/mariadb-operator) | &#10003; | [GitHub](https://github.com/geerlingguy/mariadb-operator) |
-| [Mcrouter Operator](https://github.com/geerlingguy/mcrouter-operator) | [![Build Status](https://travis-ci.com/geerlingguy/mcrouter-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/mcrouter-operator) | &#33; | [GitHub](https://github.com/geerlingguy/mcrouter-operator) |
-| [Ansible Tower/AWX Operator](https://github.com/geerlingguy/tower-operator) | [![Build Status](https://travis-ci.com/geerlingguy/tower-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/tower-operator) | &#10007; | [GitHub](https://github.com/geerlingguy/tower-operator) |
-
-<a href="#">Back to Top</a>
-
-## <a name="container-images"></a>Container Images Built with Ansible
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [geerlingguy/drupal](https://hub.docker.com/r/geerlingguy/drupal/) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-container.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-container) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-container) |
-| [geerlingguy/fathom](https://hub.docker.com/r/geerlingguy/fathom/) | [![Build Status](https://travis-ci.org/geerlingguy/fathom-container.svg?branch=master)](https://travis-ci.org/geerlingguy/fathom-container) | &#10003; | [GitHub](https://github.com/geerlingguy/fathom-container) |
-| [geerlingguy/php-apache](https://hub.docker.com/r/geerlingguy/php-apache/) | [![Build Status](https://travis-ci.org/geerlingguy/php-apache-container.svg?branch=master)](https://travis-ci.org/geerlingguy/php-apache-container) | &#10003; | [GitHub](https://github.com/geerlingguy/php-apache-container) |
-| [geerlingguy/solr](https://hub.docker.com/r/geerlingguy/solr/) | [![Build Status](https://travis-ci.org/geerlingguy/solr-container.svg?branch=master)](https://travis-ci.org/geerlingguy/solr-container) | &#10003; | [GitHub](https://github.com/geerlingguy/solr-container) |
-
-<a href="#">Back to Top</a>
-
-## <a name="container-images-testing"></a>Container Images for Ansible Testing
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [geerlingguy/docker-ubuntu2004-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2004-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-ubuntu2004-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-ubuntu2004-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2004-ansible) |
-| [geerlingguy/docker-ubuntu1804-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu1804-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-ubuntu1804-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-ubuntu1804-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu1804-ansible) |
-| [geerlingguy/docker-ubuntu1604-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu1604-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-ubuntu1604-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-ubuntu1604-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu1604-ansible) |
-| [geerlingguy/docker-ubuntu1404-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu1404-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-ubuntu1404-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-ubuntu1404-ansible) | &#10007; | [GitHub](https://github.com/geerlingguy/docker-ubuntu1404-ansible) |
-| [geerlingguy/docker-ubuntu1204-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu1204-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-ubuntu1204-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-ubuntu1204-ansible) | &#10007; | [GitHub](https://github.com/geerlingguy/docker-ubuntu1204-ansible) |
-| [geerlingguy/docker-centos8-ansible](https://hub.docker.com/r/geerlingguy/docker-centos8-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-centos8-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-centos8-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-centos8-ansible) |
-| [geerlingguy/docker-centos7-ansible](https://hub.docker.com/r/geerlingguy/docker-centos7-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-centos7-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-centos7-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-centos7-ansible) |
-| [geerlingguy/docker-centos6-ansible](https://hub.docker.com/r/geerlingguy/docker-centos6-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-centos6-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-centos6-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-centos6-ansible) |
-| [geerlingguy/docker-debian10-ansible](https://hub.docker.com/r/geerlingguy/docker-debian10-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-debian10-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-debian10-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-debian10-ansible) |
-| [geerlingguy/docker-debian9-ansible](https://hub.docker.com/r/geerlingguy/docker-debian9-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-debian9-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-debian9-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-debian9-ansible) |
-| [geerlingguy/docker-debian8-ansible](https://hub.docker.com/r/geerlingguy/docker-debian8-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-debian8-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-debian8-ansible) | &#10007; | [GitHub](https://github.com/geerlingguy/docker-debian8-ansible) |
-| [geerlingguy/docker-ubi8-ansible](https://hub.docker.com/r/geerlingguy/docker-ubi8-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-ubi8-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-ubi8-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubi8-ansible) |
-| [geerlingguy/docker-amazonlinux2-ansible](https://hub.docker.com/r/geerlingguy/docker-amazonlinux2-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-amazonlinux2-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-amazonlinux2-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-amazonlinux2-ansible) |
-| [geerlingguy/docker-fedora32-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora32-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-fedora32-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-fedora32-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora32-ansible) |
-| [geerlingguy/docker-fedora31-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora31-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-fedora31-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-fedora31-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora31-ansible) |
-| [geerlingguy/docker-fedora30-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora30-ansible/) | [![Build Status](https://travis-ci.com/geerlingguy/docker-fedora30-ansible.svg?branch=master)](https://travis-ci.com/geerlingguy/docker-fedora30-ansible) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora30-ansible) |
-| [geerlingguy/docker-fedora29-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora29-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-fedora29-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-fedora29-ansible) | &#10007; | [GitHub](https://github.com/geerlingguy/docker-fedora29-ansible) |
-| [geerlingguy/docker-fedora27-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora27-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-fedora27-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-fedora27-ansible) | &#10007; | [GitHub](https://github.com/geerlingguy/docker-fedora27-ansible) |
-| [geerlingguy/docker-fedora24-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora24-ansible/) | [![Build Status](https://travis-ci.org/geerlingguy/docker-fedora24-ansible.svg?branch=master)](https://travis-ci.org/geerlingguy/docker-fedora24-ansible) | &#10007; | [GitHub](https://github.com/geerlingguy/docker-fedora24-ansible) |
-
-See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)
-
-<a href="#">Back to Top</a>
-
-## <a name="collections"></a>Ansible Collections
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [geerlingguy.k8s](https://galaxy.ansible.com/geerlingguy/k8s) | [![Build Status](https://travis-ci.com/geerlingguy/ansible-collection-k8s.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-collection-k8s) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-collection-k8s) |
-| [geerlingguy.php_roles](https://galaxy.ansible.com/geerlingguy/php_roles) | [![Build Status](https://travis-ci.com/geerlingguy/ansible-collection-php_roles.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-collection-php_roles) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-collection-php_roles) |
-
-<a href="#">Back to Top</a>
-
-## <a name="roles"></a>Ansible Roles
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
 | [geerlingguy.adminer](https://galaxy.ansible.com/geerlingguy/adminer) | [![CI](https://github.com/geerlingguy/ansible-role-adminer/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-adminer/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-adminer) |
 | [geerlingguy.ansible](https://galaxy.ansible.com/geerlingguy/ansible) | [![CI](https://github.com/geerlingguy/ansible-role-ansible/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-ansible/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-ansible) |
 | [geerlingguy.apache](https://galaxy.ansible.com/geerlingguy/apache) | [![CI](https://github.com/geerlingguy/ansible-role-apache/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-apache/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-apache) |
@@ -133,7 +34,7 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | [geerlingguy.haproxy](https://galaxy.ansible.com/geerlingguy/haproxy) | [![CI](https://github.com/geerlingguy/ansible-role-haproxy/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-haproxy/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-haproxy) |
 | [geerlingguy.hdparm](https://galaxy.ansible.com/geerlingguy/hdparm) | [![CI](https://github.com/geerlingguy/ansible-role-hdparm/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-hdparm/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-hdparm) |
 | [geerlingguy.helm](https://galaxy.ansible.com/geerlingguy/helm) | [![CI](https://github.com/geerlingguy/ansible-role-helm/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-helm/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-helm) |
-| [geerlingguy.homebrew](https://galaxy.ansible.com/geerlingguy/homebrew) | [![Build Status](https://travis-ci.com/geerlingguy/ansible-role-homebrew.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-role-homebrew) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-homebrew) |
+| [geerlingguy.homebrew](https://galaxy.ansible.com/geerlingguy/homebrew) | [![CI](https://github.com/geerlingguy/ansible-role-homebrew/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-homebrew/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-homebrew) |
 | [geerlingguy.htpasswd](https://galaxy.ansible.com/geerlingguy/htpasswd) | [![CI](https://github.com/geerlingguy/ansible-role-htpasswd/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-htpasswd/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-htpasswd) |
 | [geerlingguy.java](https://galaxy.ansible.com/geerlingguy/java) | [![CI](https://github.com/geerlingguy/ansible-role-java/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-java/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-java) |
 | [geerlingguy.jenkins](https://galaxy.ansible.com/geerlingguy/jenkins) | [![CI](https://github.com/geerlingguy/ansible-role-jenkins/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-jenkins/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-jenkins) |
@@ -142,7 +43,7 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | [geerlingguy.kubernetes](https://galaxy.ansible.com/geerlingguy/kubernetes) | [![CI](https://github.com/geerlingguy/ansible-role-kubernetes/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-kubernetes/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-kubernetes) |
 | [geerlingguy.logstash](https://galaxy.ansible.com/geerlingguy/logstash) | [![CI](https://github.com/geerlingguy/ansible-role-logstash/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-logstash/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-logstash) |
 | [geerlingguy.mailhog](https://galaxy.ansible.com/geerlingguy/mailhog) | [![CI](https://github.com/geerlingguy/ansible-role-mailhog/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-mailhog/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-mailhog) |
-| [geerlingguy.mas](https://galaxy.ansible.com/geerlingguy/mas) | [![Build Status](https://travis-ci.com/geerlingguy/ansible-role-mas.svg?branch=master)](https://travis-ci.com/geerlingguy/ansible-role-mas) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-mas) |
+| [geerlingguy.mas](https://galaxy.ansible.com/geerlingguy/mas) | [![CI](https://github.com/geerlingguy/ansible-role-mas/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-mas/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-mas) |
 | [geerlingguy.memcached](https://galaxy.ansible.com/geerlingguy/memcached) | [![CI](https://github.com/geerlingguy/ansible-role-memcached/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-memcached/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-memcached) |
 | [geerlingguy.munin](https://galaxy.ansible.com/geerlingguy/munin) | [![CI](https://github.com/geerlingguy/ansible-role-munin/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-munin/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-munin) |
 | [geerlingguy.munin-node](https://galaxy.ansible.com/geerlingguy/munin-node) | [![CI](https://github.com/geerlingguy/ansible-role-munin-node/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-munin-node/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-munin-node) |
@@ -189,47 +90,3 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | [geerlingguy.svn2git](https://galaxy.ansible.com/geerlingguy/svn2git) | [![CI](https://github.com/geerlingguy/ansible-role-svn2git/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-svn2git/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-svn2git) |
 | [geerlingguy.swap](https://galaxy.ansible.com/geerlingguy/swap) | [![CI](https://github.com/geerlingguy/ansible-role-swap/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-swap/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-swap) |
 | [geerlingguy.varnish](https://galaxy.ansible.com/geerlingguy/varnish) | [![CI](https://github.com/geerlingguy/ansible-role-varnish/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-varnish/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-varnish) |
-
-
-<a href="#">Back to Top</a>
-
-## <a name="projects"></a>Ansible Projects
-
-| Name and Link | Test Status | Maintained? |
-| ------------- | ----------- | ----------- |
-| [Ansible Requirements Updater](https://github.com/geerlingguy/ansible-requirements-updater) | N/A | &#10003; |
-| [Mac Development Playbook](https://github.com/geerlingguy/mac-dev-playbook) | [![Build Status](https://travis-ci.org/geerlingguy/mac-dev-playbook.svg?branch=master)](https://travis-ci.org/geerlingguy/mac-dev-playbook) | &#10003; |
-| [Packer Boxes](https://github.com/geerlingguy/packer-boxes) | ![Validate Packer JSON files](https://github.com/geerlingguy/packer-boxes/workflows/Validate%20Packer%20JSON%20files/badge.svg) | &#10003; |
-| [Drupal VM](https://www.drupalvm.com) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-vm.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-vm) | &#10003; |
-| [Raspberry Pi Dramble](https://www.pidramble.com) | [![Build Status](https://travis-ci.org/geerlingguy/raspberry-pi-dramble.svg?branch=master)](https://travis-ci.org/geerlingguy/raspberry-pi-dramble) | &#10003; |
-| [Drupal Pi](https://github.com/geerlingguy/drupal-pi) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-pi.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-pi) | &#10003; |
-| [Turing Pi Cluster](https://github.com/geerlingguy/turing-pi-cluster) | [![Build Status](https://github.com/geerlingguy/turing-pi-cluster/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/turing-pi-cluster/actions?query=workflow%3ACI) | &#33; |
-| [Ansible Vagrant Examples](https://github.com/geerlingguy/ansible-vagrant-examples) | N/A | &#33; |
-
-Also see [all my blog posts about Ansible](https://www.jeffgeerling.com/category/ansible) and [all my YouTube videos about Ansible](https://www.youtube.com/playlist?list=PL2_OBreMn7FplshFCWYlaN2uS8et9RjNG).
-
-<a href="#">Back to Top</a>
-
-## <a name="presentations"></a>Ansible Videos and Presentations
-
-| Place and Date | Title |
-| -------------- | ----- |
-| YouTube<br><span class="date">April 2020</span> | [Ansible 101 streaming series](https://www.jeffgeerling.com/blog/2020/ansible-101-jeff-geerling-youtube-streaming-series) |
-| DrupalCon Seattle 2019<br><span class="date">November 26, 2019</span> | [Everything I know about Kubernetes I learned from a cluster of Raspberry Pis](https://www.jeffgeerling.com/blog/2019/everything-i-know-about-kubernetes-i-learned-cluster-raspberry-pis) |
-| AnsibleFest Atlanta 2019<br><span class="date">September 25, 2019</span> | [There's a Role for that! How to evaluate community roles for your playbook](https://www.jeffgeerling.com/blog/2019/how-evaluate-community-ansible-roles-your-playbooks) |
-| AnsibleFest Austin 2018<br><span class="date">August 21, 2018</span> | [Make your Ansible playbooks flexible, maintainable, and scalable](https://www.youtube.com/watch?v=kNDL13MJG6Y) |
-| MidCamp 2018<br><span class="date">March 10, 2018</span> | [Jenkins or: How I learned to stop worrying and love automation](https://www.midcamp.org/2018/topic-proposal/jenkins-or-how-i-learned-stop-worrying-and-love-automation) |
-| AnsibleFest SF 2016<br><span class="date">July 28, 2016</span> | [Ansible Roles for Fun and Profit!](https://www.ansible.com/ansible-roles-by-acquia) |
-| php[tek] 2016<br><span class="date">May 25, 2016</span> | [Highly Available Drupal on a Raspberry Pi Cluster](https://www.jeffgeerling.com/blog/2016/highly-available-drupal-on-raspberry-pi-cluster-phptek-2016-session) |
-| YouTube<br><span class="date">July 27, 2015</span> | [Nginx Load Balancer Visualization on a Cluster of Raspberry Pis](https://www.youtube.com/watch?v=7Tf2f5gdO4I) |
-| YouTube<br><span class="date">July 14, 2015</span> | [Ansible 101 on a Cluster of Raspberry Pi 2s](https://www.youtube.com/watch?v=ZNB1at8mJWY) |
-| MidCamp 2015<br><span class="date">March 21, 2015</span> | [Ansible + Drupal: A Fortuitous DevOps Match](https://www.jeffgeerling.com/blog/midcamp-2015-ansible-drupal-8-presentation) |
-| YouTube<br><span class="date">March 8, 2015</span> | [Ansible serial/forks demo on a Cluster of Raspberry Pis](https://www.youtube.com/watch?v=rRJQiHydVG4) |
-| DrupalCon Austin<br><span class="date">June 5, 2014</span> | [DevOps for Humans: Ansible for Drupal Deployment Victory!](https://www.jeffgeerling.com/blog/devops-humans-ansible-presentation-drupalcon)
-| Meetup<br><span class="date">January 14, 2014</span> | [Local Dev on Virtual Machines - Vagrant, VirtualBox and Ansible](https://www.jeffgeerling.com/blog/virtualbox-vagrant-and-ansible-local-development) |
-
-<a href="#">Back to Top</a>
-
-## Inspiration
-
-This site was inspired by [Robert de Bock's similar Ansible roles site](https://robertdebock.nl).

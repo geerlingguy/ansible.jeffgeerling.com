@@ -4,13 +4,13 @@
   connection: local
 
   tasks:
-    # TODO: The build system is currently defaulted to travis-ci.org.
+    # TODO: The build system is currently defaulted to GitHub Actions.
     - name: Create table with items templated in roles-table file.
       lineinfile:
         path: roles-table
         regexp: 'ANYTHING'
         line: >-
-          | [geerlingguy.{{ item }}](https://galaxy.ansible.com/geerlingguy/{{ item }}) | [![Build Status](https://travis-ci.org/geerlingguy/ansible-role-{{ item }}.svg?branch=master)](https://travis-ci.org/geerlingguy/ansible-role-{{ item }}) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-{{ item }}) |
+          | [geerlingguy.{{ item.name }}](https://galaxy.ansible.com/geerlingguy/{{ item.name }}) | [![CI](https://github.com/geerlingguy/ansible-role-{{ item.name }}/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-{{ item.name }}/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-{{ item.name }}) |
         create: yes
         insertafter: eof
       with_items: "{{ geerlingguy_roles }}"
@@ -26,7 +26,6 @@
       - name: awx
       - name: backup
       - name: bad_judgement
-        build_system: travis-ci.com
       - name: blackfire
       - name: certbot
       - name: clamav
@@ -35,7 +34,6 @@
       - name: daemonize
       - name: docker
       - name: docker_arm
-        build_system: travis-ci.com
       - name: dotfiles
       - name: drupal
       - name: drupal-console
@@ -48,7 +46,6 @@
       - name: filebeat
       - name: firewall
       - name: fluentd
-        build_system: travis-ci.com
       - name: git
       - name: github-users
       - name: gitlab
@@ -57,8 +54,8 @@
       - name: haproxy
       - name: hdparm
       - name: helm
-        build_system: travis-ci.com
       - name: homebrew
+        build_system: travis-ci.org
       - name: htpasswd
       - name: java
       - name: jenkins
@@ -66,9 +63,9 @@
       - name: kibana
       - name: kubernetes
       - name: logstash
-      - name: logstash-forwarder
       - name: mailhog
       - name: mas
+        build_system: travis-ci.org
       - name: memcached
       - name: munin
       - name: munin-node
