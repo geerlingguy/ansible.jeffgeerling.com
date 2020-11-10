@@ -35,6 +35,8 @@
       - name: docker-ubi8-ansible
         build_system: travis-ci.com
       - name: docker-amazonlinux2-ansible
+      - name: docker-fedora33-ansible
+        build_system: travis-ci.com
       - name: docker-fedora32-ansible
         build_system: travis-ci.com
       - name: docker-fedora31-ansible
