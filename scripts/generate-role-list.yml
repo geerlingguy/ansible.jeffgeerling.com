@@ -53,8 +53,6 @@
       - name: haproxy
       - name: hdparm
       - name: helm
-      - name: homebrew
-        build_system: travis-ci.org
       - name: htpasswd
       - name: java
       - name: jenkins
@@ -63,8 +61,6 @@
       - name: kubernetes
       - name: logstash
       - name: mailhog
-      - name: mas
-        build_system: travis-ci.org
       - name: memcached
       - name: munin
       - name: munin-node
