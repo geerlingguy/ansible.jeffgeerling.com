@@ -199,9 +199,9 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | Name and Link | Test Status | Maintained? |
 | ------------- | ----------- | ----------- |
 | [Ansible Requirements Updater](https://github.com/geerlingguy/ansible-requirements-updater) | N/A | &#10003; |
-| [Mac Development Playbook](https://github.com/geerlingguy/mac-dev-playbook) | [![Build Status](https://travis-ci.org/geerlingguy/mac-dev-playbook.svg?branch=master)](https://travis-ci.org/geerlingguy/mac-dev-playbook) | &#10003; |
+| [Mac Development Playbook](https://github.com/geerlingguy/mac-dev-playbook) | [![CI](https://github.com/geerlingguy/mac-dev-playbook/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geerlingguy/mac-dev-playbook/actions/workflows/ci.yml) | &#10003; |
 | [Packer Boxes](https://github.com/geerlingguy/packer-boxes) | ![Validate Packer JSON files](https://github.com/geerlingguy/packer-boxes/workflows/Validate%20Packer%20JSON%20files/badge.svg) | &#10003; |
-| [Drupal VM](https://www.drupalvm.com) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-vm.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-vm) | &#10003; |
+| [Drupal VM](https://www.drupalvm.com) | [![CI](https://github.com/geerlingguy/drupal-vm/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geerlingguy/drupal-vm/actions/workflows/ci.yml) | &#10003; |
 | [Raspberry Pi Dramble](https://www.pidramble.com) | [![Build Status](https://travis-ci.org/geerlingguy/raspberry-pi-dramble.svg?branch=master)](https://travis-ci.org/geerlingguy/raspberry-pi-dramble) | &#10003; |
 | [Drupal Pi](https://github.com/geerlingguy/drupal-pi) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-pi.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-pi) | &#10003; |
 | [Turing Pi Cluster](https://github.com/geerlingguy/turing-pi-cluster) | [![Build Status](https://github.com/geerlingguy/turing-pi-cluster/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/turing-pi-cluster/actions?query=workflow%3ACI) | &#33; |
