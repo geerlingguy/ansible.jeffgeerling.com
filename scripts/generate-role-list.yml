@@ -23,7 +23,6 @@
       - name: apache
       - name: apache-php-fpm
       - name: aws-inspector
-      - name: awx
       - name: backup
       - name: bad_judgement
       - name: blackfire
