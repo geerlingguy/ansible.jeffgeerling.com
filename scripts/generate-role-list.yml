@@ -4,7 +4,6 @@
   connection: local
 
   tasks:
-    # TODO: The build system is currently defaulted to GitHub Actions.
     - name: Create table with items templated in roles-table file.
       lineinfile:
         path: roles-table
@@ -16,7 +15,6 @@
       with_items: "{{ geerlingguy_roles }}"
 
   vars:
-    build_system_default: travis-ci.org
     geerlingguy_roles:
       - name: adminer
       - name: ansible
