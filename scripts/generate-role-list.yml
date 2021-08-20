@@ -9,7 +9,10 @@
         path: roles-table
         regexp: 'ANYTHING'
         line: >-
-          | [geerlingguy.{{ item.name }}](https://galaxy.ansible.com/geerlingguy/{{ item.name }}) | [![CI](https://github.com/geerlingguy/ansible-role-{{ item.name }}/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-{{ item.name }}/actions?query=workflow%3ACI) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-role-{{ item.name }}) |
+          | [geerlingguy.{{ item.name }}](https://galaxy.ansible.com/geerlingguy/{{ item.name }})
+          | [![CI](https://github.com/geerlingguy/ansible-role-{{ item.name }}/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-{{ item.name }}/actions?query=workflow%3ACI)
+          | &#10003;
+          | [GitHub](https://github.com/geerlingguy/ansible-role-{{ item.name }}) |
         create: yes
         insertafter: eof
       with_items: "{{ geerlingguy_roles }}"
