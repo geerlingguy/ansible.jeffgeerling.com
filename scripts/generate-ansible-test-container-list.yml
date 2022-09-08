@@ -24,6 +24,7 @@
       - name: docker-ubuntu1604-ansible
       - name: docker-ubuntu1404-ansible
       - name: docker-ubuntu1204-ansible
+      - name: docker-rockylinux9-ansible
       - name: docker-rockylinux8-ansible
       - name: docker-centos8-ansible
         build_system: travis-ci.com
@@ -36,6 +37,7 @@
       - name: docker-ubi8-ansible
         build_system: travis-ci.com
       - name: docker-amazonlinux2-ansible
+      - name: docker-fedora36-ansible
       - name: docker-fedora35-ansible
       - name: docker-fedora34-ansible
       - name: docker-fedora33-ansible
