@@ -16,4 +16,6 @@ Finally, in this directory, run:
 
 ## Upgrading dependencies
 
-TODO
+Run:
+
+    bundle update
