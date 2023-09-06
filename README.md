@@ -13,3 +13,7 @@ Then, in this directory, install all the required gems:
 Finally, in this directory, run:
 
     bundle exec jekyll serve
+
+## Upgrading dependencies
+
+TODO
