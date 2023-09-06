@@ -21,32 +21,23 @@
       - name: docker-ubuntu2204-ansible
       - name: docker-ubuntu2004-ansible
       - name: docker-ubuntu1804-ansible
-      - name: docker-ubuntu1604-ansible
-      - name: docker-ubuntu1404-ansible
-      - name: docker-ubuntu1204-ansible
       - name: docker-rockylinux9-ansible
       - name: docker-rockylinux8-ansible
       - name: docker-centos8-ansible
         build_system: travis-ci.com
       - name: docker-centos7-ansible
       - name: docker-centos6-ansible
+      - name: docker-debian12-ansible
       - name: docker-debian11-ansible
       - name: docker-debian10-ansible
       - name: docker-debian9-ansible
       - name: docker-debian8-ansible
       - name: docker-ubi8-ansible
         build_system: travis-ci.com
+      - name: docker-amazonlinux2023-ansible
       - name: docker-amazonlinux2-ansible
+      - name: docker-fedora37-ansible
       - name: docker-fedora36-ansible
       - name: docker-fedora35-ansible
       - name: docker-fedora34-ansible
       - name: docker-fedora33-ansible
-      - name: docker-fedora32-ansible
-        build_system: travis-ci.com
-      - name: docker-fedora31-ansible
-        build_system: travis-ci.com
-      - name: docker-fedora30-ansible
-        build_system: travis-ci.com
-      - name: docker-fedora29-ansible
-      - name: docker-fedora27-ansible
-      - name: docker-fedora24-ansible
