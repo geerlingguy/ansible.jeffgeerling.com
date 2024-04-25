@@ -18,6 +18,7 @@
   vars:
     build_system_default: travis-ci.org
     geerlingguy_test_containers:
+      - name: docker-ubuntu2404-ansible
       - name: docker-ubuntu2204-ansible
       - name: docker-ubuntu2004-ansible
       - name: docker-ubuntu1804-ansible
