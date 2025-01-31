@@ -4,13 +4,12 @@
   connection: local
 
   tasks:
-    # TODO: The build system is currently defaulted to travis-ci.org.
     - name: Create table with items templated in containers-table file.
       lineinfile:
         path: containers-table
         regexp: 'ANYTHING'
         line: >-
-          | [geerlingguy/{{ item.name }}](https://hub.docker.com/r/geerlingguy/{{ item.name }}/) | [![Build Status](https://travis-ci.org/geerlingguy/{{ item.name }}.svg?branch=master)](https://travis-ci.org/geerlingguy/{{ item.name }}) | &#10003; | [GitHub](https://github.com/geerlingguy/{{ item.name }}) |
+          | [geerlingguy/{{ item.name }}](https://hub.docker.com/r/geerlingguy/{{ item.name }}/) | [![Build](https://github.com/geerlingguy/{{ item.name }}/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/{{ item.name }}/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/{{ item.name }}) |
         create: yes
         insertafter: eof
       with_items: "{{ geerlingguy_test_containers }}"
@@ -21,22 +20,11 @@
       - name: docker-ubuntu2404-ansible
       - name: docker-ubuntu2204-ansible
       - name: docker-ubuntu2004-ansible
-      - name: docker-ubuntu1804-ansible
       - name: docker-rockylinux9-ansible
       - name: docker-rockylinux8-ansible
-      - name: docker-centos8-ansible
-        build_system: travis-ci.com
-      - name: docker-centos7-ansible
-      - name: docker-centos6-ansible
       - name: docker-debian12-ansible
       - name: docker-debian11-ansible
-      - name: docker-debian10-ansible
-      - name: docker-debian9-ansible
-      - name: docker-debian8-ansible
-      - name: docker-ubi8-ansible
-        build_system: travis-ci.com
       - name: docker-amazonlinux2023-ansible
-      - name: docker-amazonlinux2-ansible
-      - name: docker-fedora49-ansible
+      - name: docker-fedora41-ansible
+      - name: docker-fedora40-ansible
       - name: docker-fedora39-ansible
-      - name: docker-fedora38-ansible
