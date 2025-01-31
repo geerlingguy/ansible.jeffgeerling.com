@@ -26,24 +26,12 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
 
 ## Table of Contents
 
-  - [Ansible-based Operators](#operators)
   - [Container Images Built with Ansible](#container-images)
   - [Container Images for Ansible Testing](#container-images-testing)
   - [Ansible Collections](#collections)
   - [Ansible Roles](#roles)
   - [Ansible Projects](#projects)
   - [Ansible Videos and Presentations](#presentations)
-
-## <a name="operators"></a>Ansible-based Operators
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [Drupal Operator](https://github.com/geerlingguy/drupal-operator) | [![Build Status](https://travis-ci.com/geerlingguy/drupal-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/drupal-operator) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-operator) |
-| [MariaDB Operator](https://github.com/geerlingguy/mariadb-operator) | [![Build Status](https://travis-ci.com/geerlingguy/mariadb-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/mariadb-operator) | &#33; | [GitHub](https://github.com/geerlingguy/mariadb-operator) |
-| [Mcrouter Operator](https://github.com/geerlingguy/mcrouter-operator) | [![Build Status](https://travis-ci.com/geerlingguy/mcrouter-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/mcrouter-operator) | &#33; | [GitHub](https://github.com/geerlingguy/mcrouter-operator) |
-| [Ansible Tower/AWX Operator](https://github.com/geerlingguy/tower-operator) | [![Build Status](https://travis-ci.com/geerlingguy/tower-operator.svg?branch=master)](https://travis-ci.com/geerlingguy/tower-operator) | &#10007; | [GitHub](https://github.com/geerlingguy/tower-operator) |
-
-<a href="#">Back to Top</a>
 
 ## <a name="container-images"></a>Container Images Built with Ansible
 
