@@ -184,10 +184,10 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | [Ansible Requirements Updater](https://github.com/geerlingguy/ansible-requirements-updater) | N/A | &#10003; |
 | [Mac Development Playbook](https://github.com/geerlingguy/mac-dev-playbook) | [![CI](https://github.com/geerlingguy/mac-dev-playbook/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geerlingguy/mac-dev-playbook/actions/workflows/ci.yml) | &#10003; |
 | [Packer Boxes](https://github.com/geerlingguy/packer-boxes) | ![Validate Packer JSON files](https://github.com/geerlingguy/packer-boxes/workflows/Validate%20Packer%20JSON%20files/badge.svg) | &#10003; |
-| [Drupal VM](https://www.drupalvm.com) | [![CI](https://github.com/geerlingguy/drupal-vm/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/geerlingguy/drupal-vm/actions/workflows/ci.yml) | &#10003; |
-| [Raspberry Pi Dramble](https://www.pidramble.com) | [![Build Status](https://travis-ci.org/geerlingguy/raspberry-pi-dramble.svg?branch=master)](https://travis-ci.org/geerlingguy/raspberry-pi-dramble) | &#10003; |
-| [Drupal Pi](https://github.com/geerlingguy/drupal-pi) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-pi.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-pi) | &#10003; |
-| [Turing Pi Cluster](https://github.com/geerlingguy/turing-pi-cluster) | [![Build Status](https://github.com/geerlingguy/turing-pi-cluster/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/turing-pi-cluster/actions/workflows/ci.yml) | &#33; |
+| [Drupal VM](https://www.drupalvm.com) | N/A | &#10007; |
+| [Raspberry Pi Dramble](https://www.pidramble.com) | N/A | &#10007; |
+| [Drupal Pi](https://github.com/geerlingguy/drupal-pi) | [![CI](https://github.com/geerlingguy/drupal-pi/actions/workflows/CI.yml/badge.svg)](https://github.com/geerlingguy/drupal-pi/actions/workflows/CI.yml) | &#10003; |
+| [Pi Cluster](https://github.com/geerlingguy/pi-cluster) | [![CI](https://github.com/geerlingguy/pi-cluster/actions/workflows/ci.yml/badge.svg)](https://github.com/geerlingguy/pi-cluster/actions/workflows/ci.yml) | &#10003; |
 | [Ansible Vagrant Examples](https://github.com/geerlingguy/ansible-vagrant-examples) | N/A | &#33; |
 
 Also see [all my blog posts about Ansible](https://www.jeffgeerling.com/category/ansible) and [all my YouTube videos about Ansible](https://www.youtube.com/playlist?list=PL2_OBreMn7FplshFCWYlaN2uS8et9RjNG).
