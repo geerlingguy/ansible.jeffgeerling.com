@@ -26,44 +26,12 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
 
 ## Table of Contents
 
-  - [Container Images Built with Ansible](#container-images)
-  - [Container Images for Ansible Testing](#container-images-testing)
   - [Ansible Collections](#collections)
   - [Ansible Roles](#roles)
   - [Ansible Projects](#projects)
+  - [Container Images Built with Ansible](#container-images)
+  - [Container Images for Ansible Testing](#container-images-testing)
   - [Ansible Videos and Presentations](#presentations)
-
-## <a name="container-images"></a>Container Images Built with Ansible
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [geerlingguy/drupal](https://hub.docker.com/r/geerlingguy/drupal/) | [![Build](https://github.com/geerlingguy/drupal-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/drupal-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-container) |
-| [geerlingguy/fathom](https://hub.docker.com/r/geerlingguy/fathom/) | [![Build](https://github.com/geerlingguy/fathom-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/fathom-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/fathom-container) |
-| [geerlingguy/php-apache](https://hub.docker.com/r/geerlingguy/php-apache/) | [![Build](https://github.com/geerlingguy/php-apache-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/php-apache-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/php-apache-container) |
-| [geerlingguy/solr](https://hub.docker.com/r/geerlingguy/solr/) | [![Build](https://github.com/geerlingguy/solr-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/solr-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/solr-container) |
-
-<a href="#">Back to Top</a>
-
-## <a name="container-images-testing"></a>Container Images for Ansible Testing
-
-| Name | Test Status | Maintained? | Repository |
-| ---- | ----------- | ----------- | ---------- |
-| [geerlingguy/docker-ubuntu2404-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2404-ansible/) | [![Build](https://github.com/geerlingguy/docker-ubuntu2404-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-ubuntu2404-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2404-ansible) |
-| [geerlingguy/docker-ubuntu2204-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2204-ansible/) | [![Build](https://github.com/geerlingguy/docker-ubuntu2204-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-ubuntu2204-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2204-ansible) |
-| [geerlingguy/docker-ubuntu2004-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2004-ansible/) | [![Build](https://github.com/geerlingguy/docker-ubuntu2004-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-ubuntu2004-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2004-ansible) |
-| [geerlingguy/docker-rockylinux9-ansible](https://hub.docker.com/r/geerlingguy/docker-rockylinux9-ansible/) | [![Build](https://github.com/geerlingguy/docker-rockylinux9-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-rockylinux9-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-rockylinux9-ansible) |
-| [geerlingguy/docker-rockylinux8-ansible](https://hub.docker.com/r/geerlingguy/docker-rockylinux8-ansible/) | [![Build](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-rockylinux8-ansible) |
-| [geerlingguy/docker-debian12-ansible](https://hub.docker.com/r/geerlingguy/docker-debian12-ansible/) | [![Build](https://github.com/geerlingguy/docker-debian12-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-debian12-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-debian12-ansible) |
-| [geerlingguy/docker-debian11-ansible](https://hub.docker.com/r/geerlingguy/docker-debian11-ansible/) | [![Build](https://github.com/geerlingguy/docker-debian11-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-debian11-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-debian11-ansible) |
-| [geerlingguy/docker-amazonlinux2023-ansible](https://hub.docker.com/r/geerlingguy/docker-amazonlinux2023-ansible/) | [![Build](https://github.com/geerlingguy/docker-amazonlinux2023-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-amazonlinux2023-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-amazonlinux2023-ansible) |
-| [geerlingguy/docker-fedora41-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora41-ansible/) | [![Build](https://github.com/geerlingguy/docker-fedora41-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora41-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora41-ansible) |
-| [geerlingguy/docker-fedora40-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora40-ansible/) | [![Build](https://github.com/geerlingguy/docker-fedora40-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora40-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora40-ansible) |
-| [geerlingguy/docker-fedora39-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora39-ansible/) | [![Build](https://github.com/geerlingguy/docker-fedora39-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora39-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora39-ansible) |
-
-
-See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)
-
-<a href="#">Back to Top</a>
 
 ## <a name="collections"></a>Ansible Collections
 
@@ -170,6 +138,37 @@ See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2
 | [Ansible Vagrant Examples](https://github.com/geerlingguy/ansible-vagrant-examples) | N/A | &#33; |
 
 Also see [all my blog posts about Ansible](https://www.jeffgeerling.com/category/ansible) and [all my YouTube videos about Ansible](https://www.youtube.com/playlist?list=PL2_OBreMn7FplshFCWYlaN2uS8et9RjNG).
+
+<a href="#">Back to Top</a>
+
+## <a name="container-images"></a>Container Images Built with Ansible
+
+| Name | Test Status | Maintained? | Repository |
+| ---- | ----------- | ----------- | ---------- |
+| [geerlingguy/drupal](https://hub.docker.com/r/geerlingguy/drupal/) | [![Build](https://github.com/geerlingguy/drupal-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/drupal-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-container) |
+| [geerlingguy/fathom](https://hub.docker.com/r/geerlingguy/fathom/) | [![Build](https://github.com/geerlingguy/fathom-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/fathom-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/fathom-container) |
+| [geerlingguy/php-apache](https://hub.docker.com/r/geerlingguy/php-apache/) | [![Build](https://github.com/geerlingguy/php-apache-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/php-apache-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/php-apache-container) |
+| [geerlingguy/solr](https://hub.docker.com/r/geerlingguy/solr/) | [![Build](https://github.com/geerlingguy/solr-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/solr-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/solr-container) |
+
+<a href="#">Back to Top</a>
+
+## <a name="container-images-testing"></a>Container Images for Ansible Testing
+
+| Name | Test Status | Maintained? | Repository |
+| ---- | ----------- | ----------- | ---------- |
+| [geerlingguy/docker-ubuntu2404-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2404-ansible/) | [![Build](https://github.com/geerlingguy/docker-ubuntu2404-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-ubuntu2404-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2404-ansible) |
+| [geerlingguy/docker-ubuntu2204-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2204-ansible/) | [![Build](https://github.com/geerlingguy/docker-ubuntu2204-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-ubuntu2204-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2204-ansible) |
+| [geerlingguy/docker-ubuntu2004-ansible](https://hub.docker.com/r/geerlingguy/docker-ubuntu2004-ansible/) | [![Build](https://github.com/geerlingguy/docker-ubuntu2004-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-ubuntu2004-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-ubuntu2004-ansible) |
+| [geerlingguy/docker-rockylinux9-ansible](https://hub.docker.com/r/geerlingguy/docker-rockylinux9-ansible/) | [![Build](https://github.com/geerlingguy/docker-rockylinux9-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-rockylinux9-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-rockylinux9-ansible) |
+| [geerlingguy/docker-rockylinux8-ansible](https://hub.docker.com/r/geerlingguy/docker-rockylinux8-ansible/) | [![Build](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-rockylinux8-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-rockylinux8-ansible) |
+| [geerlingguy/docker-debian12-ansible](https://hub.docker.com/r/geerlingguy/docker-debian12-ansible/) | [![Build](https://github.com/geerlingguy/docker-debian12-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-debian12-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-debian12-ansible) |
+| [geerlingguy/docker-debian11-ansible](https://hub.docker.com/r/geerlingguy/docker-debian11-ansible/) | [![Build](https://github.com/geerlingguy/docker-debian11-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-debian11-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-debian11-ansible) |
+| [geerlingguy/docker-amazonlinux2023-ansible](https://hub.docker.com/r/geerlingguy/docker-amazonlinux2023-ansible/) | [![Build](https://github.com/geerlingguy/docker-amazonlinux2023-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-amazonlinux2023-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-amazonlinux2023-ansible) |
+| [geerlingguy/docker-fedora41-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora41-ansible/) | [![Build](https://github.com/geerlingguy/docker-fedora41-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora41-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora41-ansible) |
+| [geerlingguy/docker-fedora40-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora40-ansible/) | [![Build](https://github.com/geerlingguy/docker-fedora40-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora40-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora40-ansible) |
+| [geerlingguy/docker-fedora39-ansible](https://hub.docker.com/r/geerlingguy/docker-fedora39-ansible/) | [![Build](https://github.com/geerlingguy/docker-fedora39-ansible/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/docker-fedora39-ansible/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/docker-fedora39-ansible) |
+
+See also: [Testing your roles with Molecule](https://www.jeffgeerling.com/blog/2018/testing-your-ansible-roles-molecule)
 
 <a href="#">Back to Top</a>
 
