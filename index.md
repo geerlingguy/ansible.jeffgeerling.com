@@ -49,10 +49,10 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
 
 | Name | Test Status | Maintained? | Repository |
 | ---- | ----------- | ----------- | ---------- |
-| [geerlingguy/drupal](https://hub.docker.com/r/geerlingguy/drupal/) | [![Build Status](https://travis-ci.org/geerlingguy/drupal-container.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-container) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-container) |
-| [geerlingguy/fathom](https://hub.docker.com/r/geerlingguy/fathom/) | [![Build Status](https://travis-ci.org/geerlingguy/fathom-container.svg?branch=master)](https://travis-ci.org/geerlingguy/fathom-container) | &#10003; | [GitHub](https://github.com/geerlingguy/fathom-container) |
-| [geerlingguy/php-apache](https://hub.docker.com/r/geerlingguy/php-apache/) | [![Build Status](https://travis-ci.org/geerlingguy/php-apache-container.svg?branch=master)](https://travis-ci.org/geerlingguy/php-apache-container) | &#10003; | [GitHub](https://github.com/geerlingguy/php-apache-container) |
-| [geerlingguy/solr](https://hub.docker.com/r/geerlingguy/solr/) | [![Build Status](https://travis-ci.org/geerlingguy/solr-container.svg?branch=master)](https://travis-ci.org/geerlingguy/solr-container) | &#10003; | [GitHub](https://github.com/geerlingguy/solr-container) |
+| [geerlingguy/drupal](https://hub.docker.com/r/geerlingguy/drupal/) | [![Build](https://github.com/geerlingguy/drupal-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/drupal-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/drupal-container) |
+| [geerlingguy/fathom](https://hub.docker.com/r/geerlingguy/fathom/) | [![Build](https://github.com/geerlingguy/fathom-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/fathom-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/fathom-container) |
+| [geerlingguy/php-apache](https://hub.docker.com/r/geerlingguy/php-apache/) | [[![Build](https://github.com/geerlingguy/php-apache-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/php-apache-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/php-apache-container) |
+| [geerlingguy/solr](https://hub.docker.com/r/geerlingguy/solr/) | [![Build](https://github.com/geerlingguy/solr-container/actions/workflows/build.yml/badge.svg)](https://github.com/geerlingguy/solr-container/actions/workflows/build.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/solr-container) |
 
 <a href="#">Back to Top</a>
 
