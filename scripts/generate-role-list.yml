@@ -19,37 +19,38 @@
 
   vars:
     geerlingguy_roles:
-      - name: adminer
+      # - name: adminer
       - name: ansible
       - name: apache
       - name: apache-php-fpm
-      - name: aws-inspector
+      # - name: aws-inspector
+      # - name: awx
       - name: backup
       - name: bad_judgement
-      - name: blackfire
+      # - name: blackfire
       - name: certbot
       - name: clamav
-      - name: collectd-signalfx
+      # - name: collectd-signalfx
       - name: composer
       - name: daemonize
       - name: docker
-      - name: docker_arm
+      # - name: docker_arm
       - name: dotfiles
       - name: drupal
       - name: drush
-      - name: ecr_container_build
+      # - name: ecr_container_build
       - name: elasticsearch
       - name: elasticsearch-curator
       - name: exim
       - name: fathom
       - name: filebeat
       - name: firewall
-      - name: fluentd
+      # - name: fluentd
       - name: git
       - name: github-users
-      - name: gitlab
-      - name: glusterfs
-      - name: gogs
+      # - name: gitlab
+      # - name: glusterfs
+      # - name: gogs
       - name: haproxy
       - name: hdparm
       - name: helm
@@ -75,17 +76,17 @@
       - name: passenger
       - name: php
       - name: php-memcached
-      - name: phpmyadmin
       - name: php-mysql
       - name: php-pear
       - name: php-pecl
       - name: php-pgsql
       - name: php-redis
-      - name: php-tideways
+      # - name: php-tideways
       - name: php-versions
       - name: php-xdebug
       - name: php-xhprof
-      - name: pimpmylog
+      # - name: phpmyadmin
+      # - name: pimpmylog
       - name: pip
       - name: postfix
       - name: postgresql
@@ -93,9 +94,9 @@
       - name: rabbitmq
       - name: raspberry-pi
       - name: redis
-      - name: repo-dotdeb
+      # - name: repo-dotdeb
       - name: repo-epel
-      - name: repo-puias
+      # - name: repo-puias
       - name: repo-remi
       - name: ruby
       - name: samba
