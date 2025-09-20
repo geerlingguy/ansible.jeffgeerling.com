@@ -37,9 +37,9 @@ I use a [stale issue bot](https://www.jeffgeerling.com/blog/2020/enabling-stale-
 
 | Name | Test Status | Maintained? | Repository |
 | ---- | ----------- | ----------- | ---------- |
-| [geerlingguy.k8s](https://galaxy.ansible.com/ui/standalone/roles/geerlingguy/k8s/documentation/) | N/A | &#10007; | [GitHub](https://github.com/geerlingguy/ansible-collection-k8s) |
-| [geerlingguy.mac](https://galaxy.ansible.com/ui/standalone/roles/geerlingguy/mac/documentation/) | [![CI](https://github.com/geerlingguy/ansible-collection-mac/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/ansible-collection-mac/actions/workflows/ci.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-collection-mac) |
-| [geerlingguy.php_roles](https://galaxy.ansible.com/ui/standalone/roles/geerlingguy/php_roles/documentation/) | N/A | &#10007; | [GitHub](https://github.com/geerlingguy/ansible-collection-php_roles) |
+| [geerlingguy.k8s](https://galaxy.ansible.com/ui/repo/published/geerlingguy/k8s/) | N/A | &#10007; | [GitHub](https://github.com/geerlingguy/ansible-collection-k8s) |
+| [geerlingguy.mac](https://galaxy.ansible.com/ui/repo/published/geerlingguy/mac/) | [![CI](https://github.com/geerlingguy/ansible-collection-mac/actions/workflows/ci.yml/badge.svg?branch=master&event=push)](https://github.com/geerlingguy/ansible-collection-mac/actions/workflows/ci.yml) | &#10003; | [GitHub](https://github.com/geerlingguy/ansible-collection-mac) |
+| [geerlingguy.php_roles](https://galaxy.ansible.com/ui/repo/published/geerlingguy/php_roles/) | N/A | &#10007; | [GitHub](https://github.com/geerlingguy/ansible-collection-php_roles) |
 
 <a href="#">Back to Top</a>
 
