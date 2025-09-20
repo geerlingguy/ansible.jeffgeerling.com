@@ -9,7 +9,7 @@
         path: roles-table
         regexp: 'ANYTHING'
         line: >-
-          | [geerlingguy.{{ item.name }}](https://galaxy.ansible.com/geerlingguy/{{ item.name }})
+          | [geerlingguy.{{ item.name }}](https://galaxy.ansible.com/ui/standalone/roles/geerlingguy/{{ item.name }}/documentation/)
           | [![CI](https://github.com/geerlingguy/ansible-role-{{ item.name }}/actions/workflows/ci.yml/badge.svg)](https://github.com/geerlingguy/ansible-role-{{ item.name }}/actions/workflows/ci.yml)
           | &#10003;
           | [GitHub](https://github.com/geerlingguy/ansible-role-{{ item.name }}) |
