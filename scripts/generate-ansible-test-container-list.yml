@@ -17,14 +17,20 @@
   vars:
     build_system_default: travis-ci.org
     geerlingguy_test_containers:
+      - name: docker-ubuntu2604-ansible
       - name: docker-ubuntu2404-ansible
       - name: docker-ubuntu2204-ansible
       - name: docker-ubuntu2004-ansible
+      - name: docker-rockylinux10-ansible
       - name: docker-rockylinux9-ansible
       - name: docker-rockylinux8-ansible
+      - name: docker-debian13-ansible
       - name: docker-debian12-ansible
       - name: docker-debian11-ansible
       - name: docker-amazonlinux2023-ansible
+      - name: docker-fedora44-ansible
+      - name: docker-fedora43-ansible
+      - name: docker-fedora42-ansible
       - name: docker-fedora41-ansible
       - name: docker-fedora40-ansible
       - name: docker-fedora39-ansible
